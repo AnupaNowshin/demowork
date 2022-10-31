@@ -1,6 +1,58 @@
-body{background-color: paleturquoise;}
-h1{text-align: center;
-color: blue;}
-p{text-align: center;
-color: red;
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Century; 
 }
+header{background-image: url(img/pic3.jpg);
+       height: 100vh;
+      background-size: cover;
+      background-position: center;
+    }
+ul{
+  float: right;
+  list-style-type: none;
+  margin-top: 25px;
+}
+ul li{
+  display: inline-block;
+}
+ul li a{
+ 
+  text-decoration: none;
+  color: #fff;
+  padding: 5px 25px;
+  border: 1px solid #000;
+  transition: 0.6s;
+}
+
+ul li a:hover{
+  background-color: #fff;
+  color: #000;
+}
+.logo img{
+  float: left;
+  width: 50px;
+  height: auto;
+  padding-top: 20px;
+}
+.main{
+  max-width: 1400px;
+  margin: auto;
+}
+.title{
+  position: absolute;
+  top: 40%;
+  left: 45%;
+  right: 15%;
+  transform: translate(-50%,-50%);
+}
+.title h1{
+  color: #fff;
+  font-size: 70px;
+  text-shadow: 7px 7px black;
+}
+.title p{
+  color: #fff;
+  font-size: 30px;
+}
+
